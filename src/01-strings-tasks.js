@@ -268,9 +268,7 @@ function isString(value) {
 function getCardId(/* value */) {
   throw new Error('Not implemented');
 }
-//
-//
-//
+
 module.exports = {
   concatenateStrings,
   getStringLength,
@@ -283,8 +281,8 @@ module.exports = {
   unbracketTag,
   convertToUpperCase,
   extractEmails,
-  getRectangleString,
-  encodeToRot13,
+  getRectangleString, //
+  encodeToRot13, //
   isString,
-  getCardId,
+  getCardId, //
 };
